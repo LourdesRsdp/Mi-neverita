@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="site.css" />
+    <title>Mi neverita</title>
+</head>
+
+<body>
+    <div>
+        <h1>Mi Nevera</h1>
+    </div>
+    <div class="row">
+        <div class="image col-50" id="image">
+            <img class="fridge" src="" id="fridge"/>
+        </div>
+        <div class="col-50">
+            <p>¿Cuantos tomates quieres?</p>
+            <input type="text" name="tomato" id="tomato">
+            <br>
+            <button type="button" onclick="setTomatoes(document.getElementById('tomato').value)">Refresh</button>
+        </div>
+    </div>  
+    <div>
+        <footer>
+            <p>Duy, ice queen</p>
+        </footer>
+    </div>
+    <script src="nevera.js"></script>
+    
+</body>
