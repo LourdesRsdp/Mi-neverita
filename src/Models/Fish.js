@@ -1,6 +1,6 @@
 class Fish extends Product{
     
-    hasFishBones;
+    HasFishBones;
     
     constructor(){
         super();
