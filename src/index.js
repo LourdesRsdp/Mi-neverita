@@ -1,4 +1,4 @@
-/* import { productTypes } from "ProductTypes";
+import { productTypes } from "./Models/ProductTypes";
 
 productTypes;
 
@@ -10,4 +10,4 @@ for (var i = 0; i < productTypes.length; i++) {
     el.value = opt;
 
     select.add(el);
-}    */
+}    
