@@ -23,6 +23,7 @@ h1 {
 
 .image {
     text-align: left;
+    src: "src\Images\cute-cartoon-fridge-freezer-illustrated-146180101.jpg";
 }
 
 .fridge {
@@ -66,4 +67,8 @@ button {
 footer {
     background-color: #fff;
     color: var(--second-c);
+}
+
+.selector{
+    text-align: center;
 }
