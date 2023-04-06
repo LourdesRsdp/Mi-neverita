@@ -33,6 +33,13 @@ const data = [
         size: 1,
         color: "White",
         price: 2
+    },
+    {
+        id: 6,
+        name: "Kefir",
+        size: 1,
+        color: "White",
+        price: 3
     }
 ];
 
