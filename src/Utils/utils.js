@@ -14,9 +14,7 @@ const AddOptionsToSelect = (selectName, optionsArray) => {
 }
 
 function AddEventToSelect(selectId, eventName, funcionality) {
-    console.log(funcionality);
     const select = document.getElementById(selectId);
-    console.log(select);
     select.addEventListener(eventName, event => {
         console.log(funcionality);
                 funcionality();
