@@ -13,4 +13,16 @@ const AddOptionsToSelect = (selectName, optionsArray) => {
     }  
 }
 
-export { AddOptionsToSelect };
+function AddEventToSelect(selectId, eventName, funcionality) {
+    console.log(funcionality);
+    const select = document.getElementById(selectId);
+    console.log(select);
+    select.addEventListener(eventName, event => {
+        console.log(funcionality);
+                funcionality();
+    });
+    
+}
+
+
+export { AddOptionsToSelect, AddEventToSelect };
