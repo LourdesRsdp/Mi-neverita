@@ -2,6 +2,11 @@ html {
     height: 100%;
 }
 
+#yo {
+    position: fixed;
+    background-color: transparent;
+}
+
 body {
     min-height: 100%;
     background-color: aliceblue;
@@ -68,6 +73,6 @@ footer {
     color: var(--second-c);
 }
 
-.selector{
+.selector {
     text-align: center;
 }
