@@ -1,0 +1,21 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Esto asegura que el contenedor ocupe el 100% de la altura visible de la ventana */
+}
+
+.login-card {
+    width: 40%;
+    /* Ancho del card */
+    margin: 5%;
+    /* Márgenes alrededor del card */
+    align-items: center;
+}
+
+mat-form-field {
+    width: calc(100% - 10%);
+    /* 100% del ancho del contenedor menos el margen de 16px en cada lado */
+    margin: 8px 16px;
+    /* Margen superior e inferior de 8px y margen izquierdo y derecho de 16px */
+}

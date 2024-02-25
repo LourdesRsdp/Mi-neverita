@@ -1,11 +1,16 @@
-<button (click)="goTo('home')">
-    Home
-</button>
-<button (click)="goTo('marketplace')">
-    Marketplace
-</button>
-<button (click)="goTo('recipes')">
-    Recipes
-</button>
-
-<router-outlet></router-outlet>
+<app-header></app-header>
+<mat-drawer-container class="example-container">
+    <mat-drawer #drawer class="example-sidenav" mode="side">
+        <mat-nav-list>
+            <mat-list-item role="listitem" (click)="goTo('home')">Home</mat-list-item>
+            <mat-list-item role="listitem" (click)="goTo('marketplace')">Marketplace</mat-list-item>
+            <mat-list-item role="listitem" (click)="goTo('recipes')">Recipes</mat-list-item>
+        </mat-nav-list>
+    </mat-drawer>
+    <div class="example-sidenav-content">
+        <button mat-icon-button type="button" (click)="drawer.toggle()">
+            <mat-icon>menu</mat-icon>
+        </button>
+        <router-outlet></router-outlet>
+    </div>
+</mat-drawer-container>
